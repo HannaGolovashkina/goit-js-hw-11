@@ -68,8 +68,9 @@ function onLoadMore() {
           "We're sorry, but you've reached the end of search results."
         );
       }
-      renderSearchMarkup(hits);
       gallery.refresh();
+      renderSearchMarkup(hits);
+      // gallery.refresh();
       smoothScroll();
     });
   } catch (error) {
