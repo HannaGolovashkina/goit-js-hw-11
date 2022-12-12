@@ -70,7 +70,6 @@ function onLoadMore() {
       }
       gallery.refresh();
       renderSearchMarkup(hits);
-      // gallery.refresh();
       smoothScroll();
     });
   } catch (error) {
