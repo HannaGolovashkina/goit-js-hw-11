@@ -18,7 +18,20 @@
     display: block;
     flex-grow: 2;
   }
-  
+  .button{
+    background-color: rgb(175, 215, 240);
+    margin-left: 10px;
+    font-size: 20px;
+    border-radius: 4px;
+  }
+  .search-form{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgb(216, 213, 209);
+  }
+
   .gallery {
     display: flex;
     flex-wrap: wrap;
